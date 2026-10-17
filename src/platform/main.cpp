@@ -37,7 +37,7 @@ int main()
 	while (!WindowShouldClose())
 	{
 		BeginDrawing();
-		ClearBackground(RAYWHITE);
+		ClearBackground(BLACK);
 		
 #pragma region imgui
 		rlImGuiBegin();
